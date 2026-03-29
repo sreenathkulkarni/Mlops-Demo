@@ -4,4 +4,4 @@ joblib
 mlflow
 matplotlib
 fastapi 
-uvicorn
+uvicorn[standard]
