@@ -1,5 +1,18 @@
+# Virtual Environment
 venv/
+.venv/
 __pycache__/
 *.pyc
-models/model.pkl
+
+# MLflow artifacts
+mlruns/
+
+# OS / Editor
+.DS_Store
+
+# Optional outputs
 models/prediction_output.csv
+
+# ML outputs
+*.txt
+*.png
