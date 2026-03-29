@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 import pandas as pd
-from predict_model import predict
+from src.predict_model import predict
 
 app = FastAPI(title="Machine Failure Prediction API")
 
